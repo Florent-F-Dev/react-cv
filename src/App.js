@@ -5,7 +5,6 @@ import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NotFound from './pages/NotFound';
-import Navigation from './components/Navigation';
 
 function App() {
   return (

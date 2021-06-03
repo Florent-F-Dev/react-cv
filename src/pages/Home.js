@@ -9,7 +9,7 @@ const Home = () => {
             <div className="row">
                 <div className="home-content">
                     <div className="home-content-pic">
-                        <img src="./img/profil_pic.jpg" alt="Photo de profil" />
+                        <img src="./img/profil_pic.jpg" alt="Profil" />
                     </div>
                     <div className="home-content-text">
                         <h2>Florent Fournier</h2>

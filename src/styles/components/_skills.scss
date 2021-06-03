@@ -1,0 +1,52 @@
+.skills-content{
+    // div{
+    //     border: solid red 1px;
+    // }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.experiences, 
+.formations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    background-color: $blackt;
+    border-radius: 20px;
+    div{
+        width: 100%;
+        text-align: center;
+    }
+}
+.hard-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+    background-color: $blackt;
+    border-radius: 20px;
+}
+.experiences-title,
+.formations-title,
+.hard-skills-title{
+    width: 80% !important;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: solid $black 1px ;
+}
+.experience-line-title,
+.experience-line-content,
+.formation-line-title,
+.formation-line-content{
+    padding: 5px 0;
+}
