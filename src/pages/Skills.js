@@ -3,6 +3,7 @@ import ExperienceLine from '../components/ExperienceLine';
 import Footer from '../components/Footer';
 import FormationLine from '../components/FormationLine';
 import Navigation from '../components/Navigation';
+import SoftSkillLine from '../components/SoftSkillLine';
 
 const skills = () => {
     return (
@@ -29,9 +30,20 @@ const skills = () => {
                             <FormationLine title="Caces 1-3-5" content="Adif Gardanne | 2019" />
                         </div>
                     </div>
-                    <div className="hard-skills">
-                        <div className="hard-skills-title">
+                    <div className="soft-skills">
+                        <div className="soft-skills-title">
                             <h2>Compétences</h2>
+                        </div>
+                        <div className="soft-skills-content">
+                            <SoftSkillLine icon="fab fa-html5" name="HTML" level="intermédiaire" />
+                            <SoftSkillLine icon="fab fa-css3-alt" name="CSS" level="intermédiaire" />
+                            <SoftSkillLine icon="fab fa-php" name="PHP" level="intermédiaire" />
+                            <SoftSkillLine icon="fas fa-database" name="PHPMyAdmin/MySQL" level="intermédiaire" />
+                            <SoftSkillLine icon="fab fa-bootstrap" name="PHP" level="intermédiaire" />
+                            <SoftSkillLine icon="fab fa-github" name="GitHub" level="intermédiaire" />
+                            <SoftSkillLine icon="fab fa-github" name="GitHub" level="intermédiaire" />
+                            <SoftSkillLine icon="fab fa-symfony" name="Symfony" level="Débutant" />
+                            <SoftSkillLine icon="fab fa-react" name="ReactJS" level="Débutant" />
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,4 @@
 .skills-content{
-    // div{
-    //     border: solid red 1px;
-    // }
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,7 +15,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100%;
     width: 40%;
     background-color: $blackt;
     border-radius: 20px;
@@ -27,9 +23,10 @@
         text-align: center;
     }
 }
-.hard-skills{
+.soft-skills{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     height: 100%;
     width: 90%;
@@ -38,7 +35,7 @@
 }
 .experiences-title,
 .formations-title,
-.hard-skills-title{
+.soft-skills-title{
     width: 80% !important;
     text-align: center;
     padding: 5px 0;
@@ -47,6 +44,21 @@
 .experience-line-title,
 .experience-line-content,
 .formation-line-title,
-.formation-line-content{
+.formation-line-content,
+.soft-skills-title,
+.soft-skill-line{
     padding: 5px 0;
+}
+.soft-skill-line{
+    width:100%;
+    text-align: center;
+}
+.experiences-content,
+.formations-content{
+    min-height: 200px;
+}
+.soft-skills-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
