@@ -21,8 +21,9 @@ body{
     animation: come 0.5s forwards;
     min-height: calc(100vh - 190px);
     display: flex;
+    flex-wrap: wrap ;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
 }
 @keyframes come{
     0%{
@@ -40,6 +41,9 @@ body{
     .soft-skills{
         width: 100% !important;
     }
+    .row{
+        margin: 0 0 20px;
+    }
 }
 @media screen and (max-width: 540px){
     span{
@@ -50,5 +54,9 @@ body{
     }
     .soft-skills-content{
         grid-template-columns: 1fr !important;
+    }
+    .portfolio-title,
+    .portfolio-content{
+        width: 100% !important;    
     }
 }

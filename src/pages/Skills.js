@@ -41,7 +41,6 @@ const skills = () => {
                             <SoftSkillLine icon="fas fa-database" name="PHPMyAdmin/MySQL" level="intermédiaire" />
                             <SoftSkillLine icon="fab fa-bootstrap" name="PHP" level="intermédiaire" />
                             <SoftSkillLine icon="fab fa-github" name="GitHub" level="intermédiaire" />
-                            <SoftSkillLine icon="fab fa-github" name="GitHub" level="intermédiaire" />
                             <SoftSkillLine icon="fab fa-symfony" name="Symfony" level="Débutant" />
                             <SoftSkillLine icon="fab fa-react" name="ReactJS" level="Débutant" />
                         </div>
