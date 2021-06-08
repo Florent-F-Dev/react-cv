@@ -10,6 +10,9 @@ const skills = () => {
         <>
             <Navigation />
             <div className="row">
+                <div className="skills-title">
+                    <h1>Compétences</h1>
+                </div>
                 <div className="skills-content">
                     <div className="experiences">
                         <div className="experiences-title">
@@ -32,7 +35,7 @@ const skills = () => {
                     </div>
                     <div className="soft-skills">
                         <div className="soft-skills-title">
-                            <h2>Compétences</h2>
+                            <h2>Langages et technologies</h2>
                         </div>
                         <div className="soft-skills-content">
                             <SoftSkillLine icon="fab fa-html5" name="HTML" level="intermédiaire" />

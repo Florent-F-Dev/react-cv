@@ -25,6 +25,9 @@ body{
     justify-content: center;
     align-content: flex-start;
 }
+.hide{
+    display: none;  
+}
 @keyframes come{
     0%{
         transform: translateY(-50%);
@@ -38,6 +41,7 @@ body{
 @media screen and (max-width: 850px){
     .experiences,
     .formations,
+    .skills-title,
     .soft-skills{
         width: 100% !important;
     }
@@ -56,7 +60,9 @@ body{
         grid-template-columns: 1fr !important;
     }
     .portfolio-title,
-    .portfolio-content{
+    .portfolio-content,
+    .contact-title,
+    .contact-content{
         width: 100% !important;    
     }
 }

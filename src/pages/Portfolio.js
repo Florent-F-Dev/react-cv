@@ -19,18 +19,15 @@ const Portfolio = () => {
                         link="https://training-symfony.herokuapp.com/"
                         logo1="fab fa-html5"
                         logo2="fab fa-bootstrap"
-                        logo3="fab fa-php"
-                        logo4="fab fa-symfony"
+                        logo3="fab fa-symfony"
                     />
                     <PortfolioCard
-                        title="Training symfony"
+                        title="CV"
                         photo="./img/cv.png "
-                        description="Site de type e-commerce conçu dans le cadre de ma formation sur le framework symfony"
+                        description="Cv au format HTML conçu avec la librairie Bootstrap"
                         link="https://fournierflorent.alwaysdata.net/cv/"
                         logo1="fab fa-html5"
                         logo2="fab fa-bootstrap"
-                        logo3="fab fa-php"
-                        logo4="fab fa-symfony"
                     />
                 </div>
             </div>

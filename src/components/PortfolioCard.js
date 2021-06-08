@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const PortfolioCard = (props) => {
     return (
         <div className="portfolio-card">
@@ -17,13 +15,13 @@ const PortfolioCard = (props) => {
                 </div>
             </div>
             <div className="portfolio-card-footer">
-                <p>Technologies utilisées :</p>
+                <h4>Technologies utilisées :</h4>
                 <div className="portfolio-card-footer-logo">
-                    <i className={props.logo1}>{props.logoDetail1}</i>
-                    <i className={props.logo2}>{props.logoDetail2}</i>
-                    <i className={props.logo3}>{props.logoDetail3}</i>
-                    <i className={props.logo4}>{props.logoDetail4}</i>
-                    <i className={props.logo5}>{props.logoDetail5}</i>
+                    <i className={props.logo1 || "hide"}>{props.logoDetail1}</i>
+                    <i className={props.logo2 || "hide"}>{props.logoDetail2}</i>
+                    <i className={props.logo3 || "hide"}>{props.logoDetail3}</i>
+                    <i className={props.logo4 || "hide"}>{props.logoDetail4}</i>
+                    <i className={props.logo5 || "hide"}>{props.logoDetail5}</i>
                 </div>
             </div>
             <div className="portfolio-card-link">
