@@ -8,7 +8,7 @@ const Contact = () => {
             <Navigation />
             <div className="row">
                 <div className="contact-title">
-                    <h1>Contact test</h1>
+                    <h1>Contact</h1>
                 </div>
                 <div className="contact-content">
                     <div className="contact-content-info">
@@ -23,6 +23,10 @@ const Contact = () => {
                         <div className="contact-content-info-mail">
                             <h3>E-mail :</h3>
                             <p>fournier.florent.88@gmail.com</p>
+                        </div>
+                        <div className="contact-content-info-pdf">
+                            <h3>CV format pdf :</h3>
+                            <a href="./docs/CV.pdf" target="_blank">CV.pdf</a>
                         </div>
                     </div>
                     <div className="contact-content-link">
