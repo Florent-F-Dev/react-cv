@@ -8,7 +8,7 @@ const Contact = () => {
             <Navigation />
             <div className="row">
                 <div className="contact-title">
-                    <h1>Contact</h1>
+                    <h1>Contact test</h1>
                 </div>
                 <div className="contact-content">
                     <div className="contact-content-info">
